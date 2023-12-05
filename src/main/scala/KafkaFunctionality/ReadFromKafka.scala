@@ -112,7 +112,7 @@ object ReadFromKafka {
 
     try {
       val message = new MimeMessage(session)
-      message.setFrom(new InternetAddress("15mscit026@gmail.com"))
+      message.setFrom(new InternetAddress("soni.anki17@gmail.com"))
       message.addRecipient(Message.RecipientType.TO, new InternetAddress(recipient))
       message.setSubject(subject)
       message.setText(body)
